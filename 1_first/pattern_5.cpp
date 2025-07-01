@@ -5,14 +5,14 @@ int main(){
     int n;
     cout<<"Enter the value of n: ";
     cin>>n;
-    int i=1;
-    while(i<=n){
-        int j=1;
-        while(j<=i){
+    int row=1;
+    while(row<=n){
+        int col=1;
+        while(col<=row){
             cout<<" * ";
-            j++;
+            col++;
         }
         cout<<endl;
-        i++;
+        row++;
     }
 }
